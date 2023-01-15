@@ -42,11 +42,13 @@ $HOME/.composer/vendor/bin/valet install
 $HOME/.composer/vendor/bin/global-ray install
 
 # Create a Sites directory
-mkdir $HOME/Sites
+mkdir $HOME/code
 
 # Create sites subdirectories
-mkdir $HOME/Sites/blade-ui-kit
-mkdir $HOME/Sites/laravel
+mkdir $HOME/code/github
+mkdir $HOME/code/github/craigpotter
+mkdir $HOME/code/bitbucket 
+mkdir $HOME/code/bitbucket/clockwork_marketing
 
 # Clone Github repositories
 $DOTFILES/clone.sh
