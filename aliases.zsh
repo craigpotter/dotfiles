@@ -52,6 +52,8 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+#alias squash="git reset --soft $(git merge-base master HEAD) && commit"
+#alias squashMain="git reset --soft $(git merge-base main HEAD) && commit"
 
 # Mac
 alias o="open ."
