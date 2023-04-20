@@ -22,6 +22,7 @@ alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias sa='sail artisan'
 alias test='a test'
 alias sail-test 'sail artisan test'
+alias emptylog="truncate -s 0 storage/logs/laravel.log"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
